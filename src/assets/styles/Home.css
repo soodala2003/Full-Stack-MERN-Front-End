@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+/* For HomePage.jsx */
+.home-container {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home-box {
+    background-color: white;
+    padding: 15px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px #3408321a;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.create {
+    text-decoration: none;
+}
